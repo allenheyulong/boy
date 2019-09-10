@@ -1,0 +1,38 @@
+<template>
+	<div>
+		<!-- 轮播图组件 -->
+		<sum-slider :swipers="swipers" ></sum-slider>
+		<!-- 首页模板 -->
+		<template>
+			<cell>
+				<!-- 轮播图组件 -->
+				<sum-slider :swipers="swipers"></sum-slider>
+			</cell>
+		</template>
+		
+		
+	</div>
+</template>
+
+<script>
+	import sumSlider from "@/components/index/nvue/sum-slider.nvue"
+	
+	export default {
+		components: {
+			sumSlider
+		},
+		data () {
+			return {
+				swipers: [
+					{src: "/static/images/index/sumslider/demo4.jpg"},
+					{src: "/static/images/index/sumslider/demo4.jpg"},
+					{src: "/static/images/index/sumslider/demo4.jpg"}
+				]
+			}
+		}
+	}
+</script>
+
+<style>
+
+</style>
