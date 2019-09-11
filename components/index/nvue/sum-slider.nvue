@@ -1,8 +1,8 @@
 <template>
 	<div>
-		<slider :auto-play="true" :interval="3000" class="slider a-center j-center">
+		<slider :auto-play="true" :interval="3000" class="slider">
 			<div style="position: relative;" v-for="(item, index) in swipers" :key="index">
-				<image :src="item.src" mode="" class="image" resize="cover"></image>
+				<image :src="item.src" mode="" class="image" resize="cover" ></image>
 			</div>
 			<indicator class="indicator"></indicator>
 		</slider>
@@ -17,14 +17,17 @@
 	}
 </script>
 
+<style src="@/common/zcm-main-nvue.css"></style>
 <style>
-.slider {
-	border-radius: 20px
-}
+
 .slider, .image{
 	width: 750px;
 	height: 300px;
-	
+}
+.image {
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
 }
 .indicator{
 	position: absolute;

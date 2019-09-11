@@ -2,13 +2,28 @@
 	<div>
 		<!-- 轮播图组件 -->
 		<sum-slider :swipers="swipers" ></sum-slider>
-		<!-- 首页模板 -->
-		<template>
-			<cell>
-				<!-- 轮播图组件 -->
-				<sum-slider :swipers="swipers"></sum-slider>
-			</cell>
-		</template>
+		<!-- 封装全局分割线组件 -->
+		<!-- <divider/> -->
+		
+		<div class="">
+			<div class="p-1 border-bottom">
+				<text class="text-dark font-lg font-weight">每日上新</text>
+			</div>
+			<list>
+				<cell>
+					<image src="../../static/images/index/list/1.jpg" style="height: 200px; height: 320;"></image>
+				</cell>
+				<cell>
+					<image src="../../static/images/index/list/1.jpg" style="height: 200px; height: 320;"></image>
+				</cell>
+			</list>
+			<!-- <div>
+				<image src="../../static/images/index/list/1.jpg" style="height: 200px; height: 320;"></image>
+				<image src="../../static/images/index/list/2.jpg"></image>
+				<image src="../../static/images/index/list/3.jpg"></image>
+			</div> -->
+		</div>
+		
 		
 		
 	</div>
@@ -16,10 +31,12 @@
 
 <script>
 	import sumSlider from "@/components/index/nvue/sum-slider.nvue"
+	import divider from "@/components/common/divider.nvue"
 	
 	export default {
 		components: {
-			sumSlider
+			sumSlider,
+			divider
 		},
 		data () {
 			return {
@@ -33,6 +50,7 @@
 	}
 </script>
 
+<style src="@/common/zcm-main-nvue.css"></style>
 <style>
 
 </style>
