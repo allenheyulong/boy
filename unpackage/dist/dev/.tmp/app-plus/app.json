@@ -85,5 +85,8 @@
   },
   "appname": "boy",
   "compilerVersion": "2.2.2",
-  "usingComponents": {}
+  "usingComponents": {
+    "divider": "/components/common/divider",
+    "loading": "/components/common/loading"
+  }
 }
