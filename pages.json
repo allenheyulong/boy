@@ -63,7 +63,12 @@
 			},
 			{
 				"path": "pages/person/person",
-				"style": {}
+				"style": {
+					"app-plus": {
+						"titleNView": false,
+						"bounce":"none"
+					}
+				}
 			}
 		],
 		"globalStyle": {

@@ -5,7 +5,7 @@
 		<!-- 封装全局分割线组件 -->
 		<!-- <divider/> -->
 		
-		<div class="">
+		<!-- <div class="">
 			<div class="p-1 border-bottom">
 				<text class="text-dark font-lg font-weight">每日上新</text>
 			</div>
@@ -17,12 +17,24 @@
 					<image src="../../static/images/index/list/1.jpg" style="height: 200px; height: 320;"></image>
 				</cell>
 			</list>
-			<!-- <div>
-				<image src="../../static/images/index/list/1.jpg" style="height: 200px; height: 320;"></image>
-				<image src="../../static/images/index/list/2.jpg"></image>
-				<image src="../../static/images/index/list/3.jpg"></image>
-			</div> -->
-		</div>
+		</div> -->
+		<view>
+			<div class="p-1 border-bottom">
+				<text class="text-dark font-lg font-weig
+				ht">每日上新</text>
+			</div>
+			<scroll-view scroll-x class="scroll-row" >
+				<view class="scroll-row-item" >
+						<!-- <image class="d-inline-block" style="width: 300px;height: 500px;" lazy-load="true" 
+						src="../../static/images/demo/cate_01.png" mode="widthFix"></image> -->
+						<view>sdsf</view>
+						<view>sdsf</view>
+						<view>sdsf</view>
+						<view>sdsf</view>
+				</view>
+			</scroll-view>
+		</view>
+		
 		
 		
 		

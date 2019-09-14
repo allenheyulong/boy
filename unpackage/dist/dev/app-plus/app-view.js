@@ -1119,6 +1119,23 @@ function gz$gwx_4(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_4)return __WXML_GLOBAL__.ops_cached.$gwx_4
 __WXML_GLOBAL__.ops_cached.$gwx_4=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'position-relative d-flex a-center'])
+Z([3,';'])
+Z([3,'../../static/images/bg.jpg'])
+Z([3,'height:320rpx;width:100%;'])
+Z([3,'iconfont icon-xiaoxi position-absolute text-white'])
+Z([3,'font-size:50rpx;top:75rpx;right:20rpx;z-index:10;'])
+Z([3,'d-flex a-center position-absolute left-0 right-0'])
+Z([3,'bottom:50rpx;'])
+Z([3,'rounded-circle border-light ml-4'])
+Z([3,'../../static/images/demo/demo6.jpg'])
+Z([3,'height:145rpx;width:145rpx;border:5rpx solid;'])
+Z([3,'ml-2 text-white font-md'])
+Z([3,'用户昵称'])
+Z([3,'d-flex a-center j-center a-self-end ml-auto px-2'])
+Z([3,'height:70rpx;background:#FFD43F;color:#CC4A00;border-top-left-radius:40rpx;border-bottom-left-radius:40rpx;'])
+Z([3,'line-h iconfont icon-huangguan mr-1'])
+Z([3,'会员积分 2.22'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
 }
 function gz$gwx_5(){
@@ -1217,6 +1234,28 @@ d_[x[3]]={}
 var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
 var lCB=_n('view')
+var aDB=_mz(z,'view',['class',0,'style',1],[],e,s,gg)
+var tEB=_mz(z,'image',['src',2,'style',1],[],e,s,gg)
+_(aDB,tEB)
+var eFB=_mz(z,'view',['class',4,'style',1],[],e,s,gg)
+_(aDB,eFB)
+var bGB=_mz(z,'view',['class',6,'style',1],[],e,s,gg)
+var oHB=_mz(z,'image',['class',8,'src',1,'style',2],[],e,s,gg)
+_(bGB,oHB)
+var xIB=_n('view')
+_rz(z,xIB,'class',11,e,s,gg)
+var oJB=_oz(z,12,e,s,gg)
+_(xIB,oJB)
+_(bGB,xIB)
+var fKB=_mz(z,'view',['class',13,'style',1],[],e,s,gg)
+var cLB=_n('view')
+_rz(z,cLB,'class',15,e,s,gg)
+_(fKB,cLB)
+var hMB=_oz(z,16,e,s,gg)
+_(fKB,hMB)
+_(bGB,fKB)
+_(aDB,bGB)
+_(lCB,aDB)
 _(r,lCB)
 return r
 }
@@ -1224,8 +1263,8 @@ e_[x[3]]={f:m3,j:[],i:[],ti:[],ic:[]}
 d_[x[4]]={}
 var m4=function(e,s,r,gg){
 var z=gz$gwx_5()
-var tEB=_n('view')
-_(r,tEB)
+var cOB=_n('view')
+_(r,cOB)
 return r
 }
 e_[x[4]]={f:m4,j:[],i:[],ti:[],ic:[]}

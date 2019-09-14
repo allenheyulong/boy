@@ -1,3 +1,5 @@
 {
+  "titleNView": false,
+  "bounce": "none",
   "usingComponents": {}
 }
