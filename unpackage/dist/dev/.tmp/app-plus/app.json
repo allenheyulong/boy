@@ -4,7 +4,8 @@
     "pages/photo/photo",
     "pages/person/person",
     "pages/user-set/user-set",
-    "pages/user-userinfo/user-userinfo"
+    "pages/user-userinfo/user-userinfo",
+    "pages/login/login"
   ],
   "window": {
     "navigationBarTextStyle": "black",

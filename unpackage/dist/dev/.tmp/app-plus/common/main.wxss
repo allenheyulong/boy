@@ -4924,6 +4924,10 @@ image{width: 100%;}
 .main-text-color{color: #FD6801;}
 /* 主边框颜色 （淡灰色）*/
 .main-border-color{border-color: #F1F1F1;}
+/* input点击输入时边框颜色 */
+.input-border-color{
+	border-color: #FD6801;
+}
 /*UI基础库 */
 /* 防止图片闪一下 */
 image{will-change: transform}

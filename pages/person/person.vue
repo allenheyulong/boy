@@ -9,7 +9,9 @@
 			<view class="d-flex a-center position-absolute left-0 right-0" style="bottom: 50rpx;">
 				<image src="../../static/images/demo/demo6.jpg" style="height: 145rpx;width:145rpx;border: 5rpx solid;"
 				class="rounded-circle border-light ml-4" @click="navigate('user-userinfo')"></image>
-				<view class="ml-2 text-white font-md" @click="navigate('user-userinfo')">用户昵称</view>
+				<navigator url="../login/login">
+					<view class="ml-2 text-white font-md">用户昵称</view>
+				</navigator>
 				<view class="d-flex a-center j-center a-self-end ml-auto px-2"
 				style="height: 70rpx;background: #FFD43F;color: #CC4A00;border-top-left-radius: 40rpx;border-bottom-left-radius: 40rpx;">
 					<view class="line-h iconfont icon-huangguan mr-1"></view>
