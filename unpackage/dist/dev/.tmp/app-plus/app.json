@@ -2,7 +2,9 @@
   "pages": [
     "pages/class/class",
     "pages/photo/photo",
-    "pages/person/person"
+    "pages/person/person",
+    "pages/user-set/user-set",
+    "pages/user-userinfo/user-userinfo"
   ],
   "window": {
     "navigationBarTextStyle": "black",

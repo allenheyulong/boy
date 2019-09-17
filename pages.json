@@ -70,7 +70,19 @@
 					}
 				}
 			}
-		],
+		    ,{
+            "path" : "pages/user-set/user-set",
+            "style" : {
+							"navigationBarTitleText":"设置"
+						}
+        }
+        ,{
+            "path" : "pages/user-userinfo/user-userinfo",
+            "style" : {
+							"navigationBarTitleText":"修改资料"
+						}
+        }
+    ],
 		"globalStyle": {
 			"navigationBarTextStyle": "black",
 			"navigationBarTitleText": "boy",
