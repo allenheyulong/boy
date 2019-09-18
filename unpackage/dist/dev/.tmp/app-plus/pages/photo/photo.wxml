@@ -1,1 +1,1 @@
-<view></view>
+<view class="animated fadeIn faster" style="background:#F5F5F5;"><block wx:if="{{beforeReady}}"><loading-plus vue-id="1" bind:__l="__l"></loading-plus></block><text>敬请期待。。。</text></view>

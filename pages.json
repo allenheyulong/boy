@@ -92,6 +92,18 @@
 							}
 						}
         }
+        ,{
+            "path" : "pages/msg-list/msg-list",
+            "style" : {
+							"navigationBarTitleText":"消息通知"
+						}
+        }
+        ,{
+            "path" : "pages/msg-detail/msg-detail",
+            "style" : {
+            	"navigationBarTitleText":"消息详情"
+            }
+        }
     ],
 		"globalStyle": {
 			"navigationBarTextStyle": "black",

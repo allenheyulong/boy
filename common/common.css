@@ -22,6 +22,7 @@ image{width: 100%;}
 .main-border-color{border-color: #F1F1F1;}
 /* input点击输入时边框颜色 */
 .input-border-color{
-	border-color: #FD6801;
+	border-color: #FD6801!important;
 }
+
 

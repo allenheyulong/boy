@@ -1,10 +1,14 @@
 <template>
-	<view>
+	<view >
+		
 		<!-- 头部 -->
-		<view class="position-relative d-flex a-center" style="320rpx;">
+		<view class="position-relative d-flex a-center animated fadeIn faster" style="320rpx;">
+			<loading-plus v-if="beforeReady"></loading-plus>
+			
 			<image src="../../static/images/bg.jpg" style="height: 320rpx;width: 100%;"></image>
 			<view class="iconfont icon-xiaoxi position-absolute text-white"
-			style="font-size: 50rpx;top: 75rpx;right:20rpx;z-index: 10;"></view>
+			style="font-size: 50rpx;top: 75rpx;right:20rpx;z-index: 10;"
+			@click="navigate('msg-list')"></view>
 			
 			<view class="d-flex a-center position-absolute left-0 right-0" style="bottom: 50rpx;">
 				<image src="../../static/images/demo/demo6.jpg" style="height: 145rpx;width:145rpx;border: 5rpx solid;"
@@ -53,10 +57,13 @@
 </template>
 
 <script>
+	import loading from "@/common/mixin/loading.js"
+	
 	import card from "@/components/common/card.vue"
 	import uniListItem from "@/components/uni-ui/uni-list-item/uni-list-item.vue"
 	
 	export default {
+		mixins: [loading],
 		components: {
 			card,
 			uniListItem

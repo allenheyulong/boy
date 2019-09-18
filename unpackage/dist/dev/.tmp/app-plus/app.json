@@ -5,7 +5,9 @@
     "pages/person/person",
     "pages/user-set/user-set",
     "pages/user-userinfo/user-userinfo",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/msg-list/msg-list",
+    "pages/msg-detail/msg-detail"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -90,6 +92,7 @@
   "compilerVersion": "2.2.2",
   "usingComponents": {
     "divider": "/components/common/divider",
-    "loading": "/components/common/loading"
+    "loading": "/components/common/loading",
+    "loading-plus": "/common/mixin/loading-plus"
   }
 }
