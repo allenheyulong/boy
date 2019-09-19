@@ -1406,7 +1406,7 @@ Z([[4],[[5],[[4],[[5],[[5],[1,'^click']],[[4],[[5],[[4],[[5],[[5],[[5],[1,'navig
 Z([[6],[[7],[3,'list']],[3,'title']])
 Z([[2,'+'],[[2,'+'],[[2,'+'],[[2,'+'],[[2,'+'],[1,'2-'],[[7],[3,'index']]],[1,'-']],[[7],[3,'listIndex']]],[1,',']],[[2,'+'],[1,'1-'],[[7],[3,'index']]]])
 Z([3,'p-3'])
-Z([3,'bg-white'])
+Z([3,'user-set-btn'])
 Z([3,'default'])
 Z([3,'退出登录'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_15);return __WXML_GLOBAL__.ops_cached.$gwx_15
@@ -2137,7 +2137,7 @@ __wxAppCode__['pages/person/person.wxml']=$gwx('./pages/person/person.wxml');
 __wxAppCode__['pages/photo/photo.wxss']=undefined;    
 __wxAppCode__['pages/photo/photo.wxml']=$gwx('./pages/photo/photo.wxml');
 
-__wxAppCode__['pages/user-set/user-set.wxss']=setCssToHead(["body{ background: #EEEEEE; }\n",],undefined,{path:"./pages/user-set/user-set.wxss"});    
+__wxAppCode__['pages/user-set/user-set.wxss']=setCssToHead(["body{ background: #EEEEEE; }\n.",[1],"user-set-btn{ width: 100%; margin: ",[0,20]," 0; background: #FF0000!important; border: 0!important; color: #FFFFFF!important; }\n",],undefined,{path:"./pages/user-set/user-set.wxss"});    
 __wxAppCode__['pages/user-set/user-set.wxml']=$gwx('./pages/user-set/user-set.wxml');
 
 __wxAppCode__['pages/user-userinfo/user-userinfo.wxss']=undefined;    
