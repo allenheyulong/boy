@@ -1,0 +1,2 @@
+setCssToHead(["body{ background: #EEEEEE; }\n.",[1],"user-set-btn{ width: 100%; margin: ",[0,20]," 0; background: #FF0000!important; border: 0!important; color: #FFFFFF!important; }\n",],undefined,{path:"./pages/user-set/user-set.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/user-set/user-set.wxml') } }));

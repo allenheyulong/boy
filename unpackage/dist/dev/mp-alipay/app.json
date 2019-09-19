@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/class/class",
+    "pages/photo/photo",
+    "pages/person/person",
+    "pages/user-set/user-set",
+    "pages/user-userinfo/user-userinfo",
+    "pages/login/login"
+  ],
+  "window": {
+    "defaultTitle": "boy",
+    "titleBarColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "textColor": "#B5B5B5",
+    "selectedColor": "#FA436A",
+    "backgroundColor": "#FFFFFF",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/tabbar/home.png",
+        "activeIcon": "static/tabbar/home-ed.png"
+      },
+      {
+        "pagePath": "pages/class/class",
+        "name": "模板",
+        "icon": "static/tabbar/class.png",
+        "activeIcon": "static/tabbar/class-ed.png"
+      },
+      {
+        "pagePath": "pages/photo/photo",
+        "name": "云相册",
+        "icon": "static/tabbar/photo.png",
+        "activeIcon": "static/tabbar/photo-ed.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "name": "我的",
+        "icon": "static/tabbar/person.png",
+        "activeIcon": "static/tabbar/person-ed.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "divider": "/components/common/divider",
+    "loading": "/components/common/loading"
+  }
+}
