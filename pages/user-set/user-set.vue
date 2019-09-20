@@ -6,7 +6,7 @@
 			:title="list.title" @click="navigate(list.path)"></uni-list-item>
 		</card>
 		<view class="p-3">
-			<button type="default" class="user-set-btn">退出登录</button>
+			<button type="default" class="user-set-btn btn-bk">退出登录</button>
 		</view>
 	</view>
 </template>
@@ -26,8 +26,8 @@
 					{
 						label: "账户管理",
 						value: [
-							{title: "个人资料", path: ""},
-							{title: "修改密码", path: ""},
+							{title: "个人资料", path: "user-userinfo"},
+							{title: "修改密码", path: "user-repassword"},
 						]
 					},
 					{
@@ -58,12 +58,7 @@
 page{
 	background: #EEEEEE;
 }
-.user-set-btn{
-	width: 100%;
-	margin: 20upx 0;
+.btn-bk{
 	background: #FF0000!important;
-	border: 0!important;
-	color: #FFFFFF!important;
 }
-	
 </style>

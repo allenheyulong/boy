@@ -4924,9 +4924,31 @@ image{width: 100%;}
 .main-text-color{color: #FD6801;}
 /* 主边框颜色 （淡灰色）*/
 .main-border-color{border-color: #F1F1F1;}
-/* input点击输入时边框颜色 */
+/* input点击输入时边框颜色  */
 .input-border-color{
 	border-color: #FD6801!important;
+}
+/* 公共按钮 */
+.user-set-btn{
+	width: 100%;
+	margin: 20rpx 0;
+	background: #FFCC00!important;
+	border: 0!important;
+	color: #FFFFFF!important;
+}
+.user-set-btn-disable{
+	background: #F4F4F4!important;
+	border: 1rpx solid #EEEEEE!important;
+	color: #909090!important;
+}
+/* 公共input */
+.common-input{
+	font-size: 30rpx;
+	border-bottom: 1rpx solid #F4F4F4;
+}
+/* 主题上下垂直方向 30px间距 */
+.body{
+	padding: 0 30rpx!important;
 }
 /*UI基础库 */
 /* 防止图片闪一下 */

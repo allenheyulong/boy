@@ -104,6 +104,12 @@
             	"navigationBarTitleText":"消息详情"
             }
         }
+        ,{
+            "path" : "pages/user-repassword/user-repassword",
+            "style" : {
+							"navigationBarTitleText":"修改密码"
+						}
+        }
     ],
 		"globalStyle": {
 			"navigationBarTextStyle": "black",

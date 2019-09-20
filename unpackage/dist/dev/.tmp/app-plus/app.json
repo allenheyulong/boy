@@ -7,7 +7,8 @@
     "pages/user-userinfo/user-userinfo",
     "pages/login/login",
     "pages/msg-list/msg-list",
-    "pages/msg-detail/msg-detail"
+    "pages/msg-detail/msg-detail",
+    "pages/user-repassword/user-repassword"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -88,7 +89,7 @@
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
-  "appname": "boy",
+  "appname": "英雄",
   "compilerVersion": "2.2.2",
   "usingComponents": {
     "divider": "/components/common/divider",
