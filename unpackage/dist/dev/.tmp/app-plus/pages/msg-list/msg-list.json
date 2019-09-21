@@ -1,4 +1,5 @@
 {
-  "navigationBarTitleText": "消息通知",
+  "titleNView": "消息通知",
+  "bounce": "none",
   "usingComponents": {}
 }

@@ -6,10 +6,11 @@
 			<view class="font-md" @click="forget">忘记密码</view>	
 		</view>
 		
+		<!-- 手机密码登录 -->
 		<view class="p-5" >
-			<view class="font-big mb-5">密码登录</view>
+			<view class="font-big mb-5">手机号登录</view>
 			<input type="text" class="border-bottom mb-4 uni-input px-0 "
-			 placeholder="请输入手机号/邮箱/账号" placeholder-class="text-light-muted"
+			 placeholder="请输入手机号" placeholder-class="text-light-muted"
 			 @focus="focus('username')" @blur="blur('username')"
 			 :class="focusClass.username ? 'input-border-color' : ''"
 			 v-model="username"/>
@@ -21,7 +22,7 @@
 			<view class="py-2 w-100 d-flex a-center j-center main-bg-color text-white rounded font-md mb-4 rounded-12"
 			hover-class="main-bg-hover-color"
 			@click="submit">
-				登录
+				登录 
 			</view> 
 			<label class="checkbox d-flex a-center" @click="check = !check">
 				<checkbox value="" :checked="check"/>

@@ -90,7 +90,7 @@
     "autoclose": false
   },
   "appname": "英雄",
-  "compilerVersion": "2.2.2",
+  "compilerVersion": "2.3.1",
   "usingComponents": {
     "divider": "/components/common/divider",
     "loading": "/components/common/loading",

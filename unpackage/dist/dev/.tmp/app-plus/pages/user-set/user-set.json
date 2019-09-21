@@ -1,5 +1,7 @@
 {
   "navigationBarTitleText": "设置",
+  "scrollIndicator": "none",
+  "bounce": "none",
   "usingComponents": {
     "card": "/components/common/card",
     "uni-list-item": "/components/uni-ui/uni-list-item/uni-list-item"

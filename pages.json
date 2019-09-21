@@ -73,13 +73,20 @@
 		    ,{
             "path" : "pages/user-set/user-set",
             "style" : {
-							"navigationBarTitleText":"设置"
+							"navigationBarTitleText":"设置",
+							"app-plus":{
+								"scrollIndicator":"none",
+								"bounce":"none"
+							}
 						}
         }
         ,{
             "path" : "pages/user-userinfo/user-userinfo",
             "style" : {
-							"navigationBarTitleText":"修改资料"
+							"app-plus": {
+								"titleNView": "修改资料",
+								"bounce":"none"
+							}
 						}
         }
         ,{
@@ -95,19 +102,29 @@
         ,{
             "path" : "pages/msg-list/msg-list",
             "style" : {
-							"navigationBarTitleText":"消息通知"
+							"app-plus": {
+								"titleNView": "消息通知",
+								"bounce":"none"
+							}
 						}
         }
         ,{
             "path" : "pages/msg-detail/msg-detail",
             "style" : {
-            	"navigationBarTitleText":"消息详情"
+            	"app-plus": {
+            		"titleNView": "消息详情",
+            		"bounce":"none"
+            	}
             }
         }
         ,{
             "path" : "pages/user-repassword/user-repassword",
             "style" : {
-							"navigationBarTitleText":"修改密码"
+							"app-plus":{
+								"scrollIndicator":"none",
+								"titleNView": "修改密码",
+								"bounce":"none"
+							}
 						}
         }
     ],

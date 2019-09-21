@@ -21,7 +21,5 @@
       }
     ]
   },
-  "usingComponents": {
-    "loading-plus": "/common/mixin/loading-plus"
-  }
+  "usingComponents": {}
 }
