@@ -37,7 +37,7 @@
 							{title: "意见反馈", path: ""},
 							{title: "清除缓存", path: ""},
 							{title: "用户协议", path: ""},
-							{title: "关于我们", path: ""},
+							{title: "关于我们", path: "about"},
 						]
 					}
 				]

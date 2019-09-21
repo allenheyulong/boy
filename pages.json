@@ -83,8 +83,9 @@
         ,{
             "path" : "pages/user-userinfo/user-userinfo",
             "style" : {
+							"navigationBarTitleText":"修改资料",
 							"app-plus": {
-								"titleNView": "修改资料",
+								"scrollIndicator":"none",
 								"bounce":"none"
 							}
 						}
@@ -94,38 +95,69 @@
             "style" : {
 							"app-plus":{
 								"bounce":"none",
-								"scrollIndicator":"none",
-								"titleNView":false
+								"scrollIndicator":"none"
 							}
 						}
         }
         ,{
             "path" : "pages/msg-list/msg-list",
-            "style" : {
+						"style" : {
+							"navigationBarTitleText":"消息通知",
 							"app-plus": {
-								"titleNView": "消息通知",
+								"scrollIndicator":"none",
 								"bounce":"none"
 							}
 						}
         }
         ,{
             "path" : "pages/msg-detail/msg-detail",
-            "style" : {
-            	"app-plus": {
-            		"titleNView": "消息详情",
-            		"bounce":"none"
-            	}
-            }
-        }
-        ,{
-            "path" : "pages/user-repassword/user-repassword",
-            "style" : {
-							"app-plus":{
+						"style" : {
+							"navigationBarTitleText":"消息详情",
+							"app-plus": {
 								"scrollIndicator":"none",
-								"titleNView": "修改密码",
 								"bounce":"none"
 							}
 						}
+        }
+        ,{
+            "path" : "pages/user-repassword/user-repassword",
+						"style" : {
+							"navigationBarTitleText":"修改密码",
+							"app-plus": {
+								"scrollIndicator":"none",
+								"bounce":"none"
+							}
+						}
+        }
+        ,{
+            "path" : "pages/pay-member/pay-member",
+						"style" : {
+							"navigationBarTitleText":"开通会员",
+							"app-plus": {
+								"scrollIndicator":"none",
+								"bounce":"none"
+							}
+						}
+        }
+        ,{
+            "path" : "pages/pay-success/pay-success",
+						"style" : {
+							"navigationBarTitleText":"支付成功",
+							"app-plus": {
+								"scrollIndicator":"none",
+								"bounce":"none"
+							}
+						}
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" : {
+            	"navigationBarTitleText":"关于我们",
+            	"app-plus": {
+            		"scrollIndicator":"none",
+            		"bounce":"none"
+            	}
+            }
         }
     ],
 		"globalStyle": {

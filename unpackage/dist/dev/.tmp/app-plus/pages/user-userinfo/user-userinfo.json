@@ -1,5 +1,6 @@
 {
-  "titleNView": "修改资料",
+  "navigationBarTitleText": "修改资料",
+  "scrollIndicator": "none",
   "bounce": "none",
   "usingComponents": {
     "uni-list-item": "/components/uni-ui/uni-list-item/uni-list-item"

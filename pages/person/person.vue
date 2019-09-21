@@ -46,7 +46,7 @@
 		leftIconStyle="color:#FDBF2E;"></uni-list-item>
 		<divider></divider>
 		<uni-list-item title="会员开通" :showExtraIcon="true" leftIcon="icon-huangguan" 
-		leftIconStyle="color:#FDBF2E;"></uni-list-item>
+		leftIconStyle="color:#FDBF2E;" @click="navigate('pay-member')"></uni-list-item>
 		<uni-list-item title="帮助中心" :showExtraIcon="true" leftIcon="icon-VIP" 
 		leftIconStyle="color:#FDBF2E;"></uni-list-item>
 		<divider></divider>

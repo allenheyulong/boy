@@ -8,7 +8,10 @@
     "pages/login/login",
     "pages/msg-list/msg-list",
     "pages/msg-detail/msg-detail",
-    "pages/user-repassword/user-repassword"
+    "pages/user-repassword/user-repassword",
+    "pages/pay-member/pay-member",
+    "pages/pay-success/pay-success",
+    "pages/about/about"
   ],
   "window": {
     "navigationBarTextStyle": "black",
